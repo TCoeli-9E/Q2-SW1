@@ -1,0 +1,50 @@
+body{
+	background-color: black;
+	font-family: 'VCR OSD Mono', sans-serif;
+	color: white;
+}
+h1{
+	color: darkred;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 40px;
+
+}
+.container{
+	width: 400%%;
+	height: 200%;
+	border: 10px double;
+}
+
+.collapsible {
+  background-color: black;
+  color:white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 10px double;
+  text-align: left;
+  font-size: 30px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content{
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+img{
+	border: 10px white double;
+	width: 200px;
+}
+footer{
+	text-align: center;
+}
+a{
+	color: white;
+}
